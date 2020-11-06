@@ -6,7 +6,7 @@
 
 import React, { useState } from "react";
 import { View, Picker, StyleSheet, Text, TextInput, TouchableOpacity, Image, ScrollView, ImageBackground, CheckBox } from "react-native";
-import Screen5 from './screen5'
+
 import styles from '../Styles/screen3'
 
 export default function Screen3({ navigation }) {

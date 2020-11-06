@@ -11,21 +11,21 @@ export default styles = StyleSheet.create({
     },
     back:{height: ('40%'),top:10, width: 23,},
     view1:{
-        marginTop: 30, height: 50, flexDirection:'row', marginLeft:20
+        marginTop: 10, height: 50, flexDirection:'row', marginLeft:20
     },
-    view2:{ margin: 25 },
+    view2:{ margin:10},
     view3:{
-        flexDirection: 'row', marginTop: 20 
+        flexDirection: 'row', marginTop: 10 
     },
     heading:{
         fontSize: 25, color: 'black', left: 30
     },
     picker:{height: ('8%'), color: 'grey' },
     C_Text:{
-        top: 7, fontWeight: 'bold', color: 'black'
+        marginTop: 5, fontWeight: 'bold', color: 'black'
     },
     button:{
-        height: ('8%'), width: ('80%'), backgroundColor: '#0487CA', alignSelf: 'center', borderRadius: 10
+        height: ('7%'), width: ('80%'), backgroundColor: '#0487CA', alignSelf: 'center', borderRadius: 10
     },
     button_text:{
         color: 'white', alignSelf: 'center', fontSize: 20, top: 15 
