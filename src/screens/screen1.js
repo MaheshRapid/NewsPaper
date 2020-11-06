@@ -5,26 +5,22 @@
 
 import React, { useState } from "react";
 import { View, Picker, StyleSheet, Text, TextInput, TouchableOpacity, Image, ScrollView, ImageBackground, CheckBox } from "react-native";
+import styles from '../Styles/screen1'
 
-
-export default function Screen1({navigation }) {
+export default function Screen1({ navigation }) {
 
     return (
-        <View style={{ }}>
-           
-            <ImageBackground style={{height:600, width:400}}
-                source={require('../images/brand.png')}>
-                    <Image source={require('../images/logo.png')} style={{height:100, width:100, top:400,  alignSelf:'center'}}></Image>
-                     {/* <Text style={{fontWeight:'bold', fontSize:55, top:400, color:'#FFB300', alignSelf:'center'}}>PB</Text> */}
-                    
-             </ImageBackground>
-             <TouchableOpacity style={{marginTop:20}}
-              onPress={() =>  navigation.navigate('Screen2')}>
-             <Text style={{alignSelf:'center',fontSize:20}}>Next</Text>
-             </TouchableOpacity>
-
+        <View>
+            <ImageBackground style={styles.imageback}
+                source={require('../images/paper.png')}>
+                <TouchableOpacity style={styles.logo}
+                    onPress={() => navigation.navigate('Screen2')}>
+                    <Image source={require('../images/logo.png')}
+                        style={styles.logo2}>
+                    </Image>
+                </TouchableOpacity>
+            </ImageBackground>
         </View>
-
 
     );
 }

@@ -5,49 +5,44 @@
 
 import React, { useState } from "react";
 import { View, Picker, StyleSheet, Text, TextInput, TouchableOpacity, Image, ScrollView, ImageBackground, CheckBox } from "react-native";
+import styles from '../Styles/screen11'
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 
-export default function Screen11({navigation }) {
+export default function Screen11({ navigation }) {
     const [selectedValue, setSelectedValue] = useState("");
     const [isSelected, setSelection] = useState(false);
     return (
         <View style={{}}>
-            <View style={{ height: 50, marginTop: 20, flexDirection:'row'}}>
-               
+            <View style={styles.view1}>
+
                 <TouchableOpacity>
-                <Image source={require('../images/left_arrow.png')} style={{ height: 18, width: 23, top:5, marginLeft:20 }} />
+                    <Image source={require('../images/left_arrow.png')} style={styles.image} />
                 </TouchableOpacity>
-                    <Text style={{ fontSize: 20, color: 'black', textAlign: 'center',left:50}}>Edit  Plan</Text>
+                <Text style={styles.heading}>Edit  Plan</Text>
 
             </View>
 
-            <View style={{ backgroundColor: '#F8FAFC', height: 250, width: 400 }}>
-                <Image source={require('../images/brand.png')} style={{ top: 20, height: 189, alignSelf: 'center', width: 290}} />
+            <View style={styles.view2}>
+                <Image source={require('../images/brand.png')} style={styles.image2} />
             </View>
 
-            <View style={{marginTop:30, flexDirection: 'row', justifyContent: 'space-between', margin:20}}>
-               
+            <View style={styles.view3}>
+
                 <View>
-                    <Text style={{color:'black'}}>The Times Of India</Text>
-                    <Text style={{ color: '#5E7BF9' }}>Rs 250.00</Text>
+                    <Text style={styles.text1}>The Times Of India</Text>
+                    <Text style={styles.text2}>Rs 250.00</Text>
                 </View>
-                <TouchableOpacity style={{ height: 38, width: 89,borderWidth:1,borderRadius:5,  borderColor:'#5A4C4D' }}>
-                    <Text style={{ color: '#5E7BF9',textAlign:'center', top:3, fontSize:18, fontWeight:'200'}}>ADD + </Text>
+                <TouchableOpacity style={styles.button1}>
+                    <Text style={styles.btntext}>ADD + </Text>
                 </TouchableOpacity>
 
             </View>
 
-            <TouchableOpacity style={{ height: 50,flexDirection:'row' ,width: 360, backgroundColor: '#0487CA', alignSelf: 'center', borderRadius: 10 }}>
-                <Text style={{ color: 'white', alignSelf: 'center', left:20 }}>Rs 250.00</Text>
-                <Text style={{ color: 'white', alignSelf: 'center', marginLeft:200 }}>Confirm</Text>
-
+            <TouchableOpacity onPress={() => navigation.navigate('Screen12')} style={styles.button2}>
+                <Text style={styles.btntext1}>Rs 250.00</Text>
+                <Text style={styles.btntext2}>Confirm</Text>
             </TouchableOpacity>
-
-            <TouchableOpacity 
-              onPress={() =>  navigation.navigate('Screen12')}>
-             <Text style={{alignSelf:'center',fontSize:20}}>Next</Text>
-             </TouchableOpacity>
-
 
 
 

@@ -5,61 +5,61 @@
 
 import React, { useState } from "react";
 import { View, Picker, StyleSheet, Text, TextInput, TouchableOpacity, Image, ScrollView, ImageBackground, CheckBox } from "react-native";
+import styles from '../Styles/screen16'
 
-
-export default function Screen16({navigation }) {
+export default function Screen16({ navigation }) {
 
     return (
         <View style={{}}>
-            <View style={{ height: 80, backgroundColor: 'white' }}>
-                <Text style={{ fontSize: 20, color: 'black', top: 30, marginLeft: 50 }}>Customer List</Text>
+            <View style={styles.v1}>
+                <Text style={styles.head}>Customer List</Text>
             </View>
 
-            <View style={{ height: 60, width: 400, backgroundColor: '#F9F8F8', flexDirection:'row', justifyContent:'space-around' }}>
-                <Text style={{ fontSize: 16, color: '#0A0909', top:15 }}>Customer ID</Text>
-                <Text style={{ fontSize: 16, color: '#0487CA', top:15  }}>Customer Name</Text>
-                <Text style={{ fontSize: 16, color: 'black' , top:15 }}>Customer Location</Text>
+            <View style={styles.v2}>
+                <Text style={styles.t1}>Customer ID</Text>
+                <Text style={styles.t1}>Customer Name</Text>
+                <Text style={styles.t1}>Customer Location</Text>
             </View>
 
-            <View style={{ height: 60, width: 400,  flexDirection:'row', justifyContent:'space-around', borderBottomColor:'#F9F8F8', borderBottomWidth:1 }}>
-                <Text style={{ fontSize: 16, color: '#0A0909', top:15 }}>000001</Text>
-                <Text style={{ fontSize: 16, color: '#0487CA', top:15  }}>Mahesh Bairi</Text>
-                <Text style={{ fontSize: 16, color: '#DB0011' , top:15 }}>Karimnagar</Text>
+            <View style={styles.v3}>
+                <Text style={styles.t1}>000001</Text>
+                <Text style={styles.t2}>Mahesh Bairi</Text>
+                <Text style={styles.t3}>Karimnagar</Text>
             </View>
-            <View style={{ height: 60, width: 400,  flexDirection:'row', justifyContent:'space-around', borderBottomColor:'#F9F8F8', borderBottomWidth:1 }}>
-                <Text style={{ fontSize: 16, color: '#0A0909', top:15 }}>000001</Text>
-                <Text style={{ fontSize: 16, color: '#0487CA', top:15  }}>Mahesh Bairi</Text>
-                <Text style={{ fontSize: 16, color: '#DB0011' , top:15 }}>Karimnagar</Text>
+            <View style={styles.v3}>
+                <Text style={styles.t1}>000001</Text>
+                <Text style={styles.t2}>Mahesh Bairi</Text>
+                <Text style={styles.t3}>Karimnagar</Text>
             </View>
-            <View style={{ height: 60, width: 400,  flexDirection:'row', justifyContent:'space-around', borderBottomColor:'#F9F8F8', borderBottomWidth:1 }}>
-                <Text style={{ fontSize: 16, color: '#0A0909', top:15 }}>000001</Text>
-                <Text style={{ fontSize: 16, color: '#0487CA', top:15  }}>Mahesh Bairi</Text>
-                <Text style={{ fontSize: 16, color: '#DB0011' , top:15 }}>Karimnagar</Text>
+            <View style={styles.v3}>
+                <Text style={styles.t1}>000001</Text>
+                <Text style={styles.t2}>Mahesh Bairi</Text>
+                <Text style={styles.t3}>Karimnagar</Text>
             </View>
-            <View style={{ height: 60, width: 400,  flexDirection:'row', justifyContent:'space-around', borderBottomColor:'#F9F8F8', borderBottomWidth:1 }}>
-                <Text style={{ fontSize: 16, color: '#0A0909', top:15 }}>000001</Text>
-                <Text style={{ fontSize: 16, color: '#0487CA', top:15  }}>Mahesh Bairi</Text>
-                <Text style={{ fontSize: 16, color: '#DB0011' , top:15 }}>Karimnagar</Text>
+            <View style={styles.v3}>
+                <Text style={styles.t1}>000001</Text>
+                <Text style={styles.t2}>Mahesh Bairi</Text>
+                <Text style={styles.t3}>Karimnagar</Text>
             </View>
-            <View style={{ height: 60, width: 400,  flexDirection:'row', justifyContent:'space-around', borderBottomColor:'#F9F8F8', borderBottomWidth:1 }}>
-                <Text style={{ fontSize: 16, color: '#0A0909', top:15 }}>000001</Text>
-                <Text style={{ fontSize: 16, color: '#0487CA', top:15  }}>Mahesh Bairi</Text>
-                <Text style={{ fontSize: 16, color: '#DB0011' , top:15 }}>Karimnagar</Text>
+            <View style={styles.v3}>
+                <Text style={styles.t1}>000001</Text>
+                <Text style={styles.t2}>Mahesh Bairi</Text>
+                <Text style={styles.t3}>Karimnagar</Text>
             </View>
-            <View style={{ height: 60, width: 400,  flexDirection:'row', justifyContent:'space-around', borderBottomColor:'#F9F8F8', borderBottomWidth:1 }}>
-                <Text style={{ fontSize: 16, color: '#0A0909', top:15 }}>000001</Text>
-                <Text style={{ fontSize: 16, color: '#0487CA', top:15  }}>Mahesh Bairi</Text>
-                <Text style={{ fontSize: 16, color: '#DB0011' , top:15 }}>Karimnagar</Text>
+            <View style={styles.v3}>
+                <Text style={styles.t1}>000001</Text>
+                <Text style={styles.t2}>Mahesh Bairi</Text>
+                <Text style={styles.t3}>Karimnagar</Text>
             </View>
-            <View style={{ height: 60, width: 400,  flexDirection:'row', justifyContent:'space-around', borderBottomColor:'#F9F8F8', borderBottomWidth:1 }}>
-                <Text style={{ fontSize: 16, color: '#0A0909', top:15 }}>000001</Text>
-                <Text style={{ fontSize: 16, color: '#0487CA', top:15  }}>Mahesh Bairi</Text>
-                <Text style={{ fontSize: 16, color: '#DB0011' , top:15 }}>Karimnagar</Text>
+            <View style={styles.v3}>
+                <Text style={styles.t1}>000001</Text>
+                <Text style={styles.t2}>Mahesh Bairi</Text>
+                <Text style={styles.t3}>Karimnagar</Text>
             </View>
-            <TouchableOpacity 
-              onPress={() =>  navigation.navigate('Screen17')}>
-             <Text style={{alignSelf:'center',fontSize:20}}>Next</Text>
-             </TouchableOpacity>
+            <TouchableOpacity
+                onPress={() => navigation.navigate('Screen17')}>
+                <Text style={{ alignSelf: 'center', fontSize: 20 }}>Next</Text>
+            </TouchableOpacity>
 
 
         </View >
