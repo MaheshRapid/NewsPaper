@@ -23,12 +23,13 @@ export default function Screen5({ navigation }) {
                 </View>
                
                 <View style={styles.view2}>
-                    <Text>Full Name</Text>
-                    <TextInput style={styles.border1} placeholder="Enter Name" placeholderTextColor="grey" />
+                    {/* <Text>Full Name</Text> */}
+                    <TextInput style={styles.border1} placeholder="Enter  FullName" placeholderTextColor="grey" />
                     <TextInput style={styles.border} placeholder="Address1" placeholderTextColor="grey" />
                     <TextInput style={styles.border} placeholder="Address2" placeholderTextColor="grey" />
                     <TextInput style={styles.border} placeholder="Locality" placeholderTextColor="grey" />
-                    <View style={styles.border}>
+                  
+                  
                         <Picker
                             selectedValue={selectedValue}
                             style={styles.picker}
@@ -37,8 +38,9 @@ export default function Screen5({ navigation }) {
                             <Picker.Item label="City" value="11" />
                             <Picker.Item label="City" value="12" />
                         </Picker>
-                    </View>
-                    <View style={{ borderBottomWidth: 1, marginTop: 20, borderBottomColor: 'grey' }}>
+                   
+                    
+                    <View style={{ borderBottomWidth: 1, marginTop: 20, borderBottomColor: 'grey' }}/>
                         <Picker
                             selectedValue={selectedValue}
                             style={styles.picker}
@@ -47,8 +49,11 @@ export default function Screen5({ navigation }) {
                             <Picker.Item label="State" value="11" />
                             <Picker.Item label="Karimnagar" value="12" />
                         </Picker>
-                    </View>
-                    <TextInput style={styles.border} placeholder="Verify Mobile Number" placeholderTextColor="grey" />
+
+                        <View style={{ borderBottomWidth: 1, marginTop: 20, borderBottomColor: 'grey' }}/>
+
+                  
+                    <TextInput style={styles.border} placeholder="Vendor Mobile Number" placeholderTextColor="grey" />
                     <View style={styles.view3}>
                         <CheckBox
                             value={isSelected}

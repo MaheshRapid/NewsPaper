@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native'
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 export default styles = StyleSheet.create({
-    logo: { height: ('15%'), width: ('20%')},
+    logo: { height: ('9%'), width: ('10%')},
     view1: { margin: 20, marginTop: 100 },
     view2: { flexDirection: 'row' },
     txt1: { fontSize: 20, fontWeight: 'bold', color: '#222222' },

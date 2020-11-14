@@ -16,8 +16,8 @@ export default function Screen17({navigation }) {
             </View>
 
             <View style={styles.v2}>
-                <Text style={styles.t2}>Customer ID</Text>
-                <Text style={styles.t3}>Customer Name</Text>
+                <Text style={styles.t2}>Customer Name</Text>
+                <Text style={styles.t3}>Locality</Text>
                 <Text style={styles.t4}> </Text>
             </View>
 

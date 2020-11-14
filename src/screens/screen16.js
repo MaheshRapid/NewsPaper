@@ -18,7 +18,7 @@ export default function Screen16({ navigation }) {
             <View style={styles.v2}>
                 <Text style={styles.t1}>Customer ID</Text>
                 <Text style={styles.t1}>Customer Name</Text>
-                <Text style={styles.t1}>Customer Location</Text>
+                <Text style={styles.t1}>Locality</Text>
             </View>
 
             <View style={styles.v3}>

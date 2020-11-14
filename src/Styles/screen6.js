@@ -10,7 +10,7 @@ export default styles = StyleSheet.create({
         height: ('15%'), flexDirection: 'row', justifyContent: 'space-between' 
     },
     view3:{
-        height: ('50%'), width: ('23%'), borderColor: 'red', borderWidth: 2, borderRadius: 10, flexDirection:'row'
+        height: ('40%'), width: ('18%'), borderColor: 'red', borderWidth: 2, borderRadius: 10, flexDirection:'row'
     },
     view4:{
         flexDirection: 'row' 
@@ -19,13 +19,13 @@ export default styles = StyleSheet.create({
         alignSelf: 'center', top: 10 
     },
     logo:{
-        height: ('50%'), width: ('10%')
+        height: ('45%'), width: ('10%')
     },
     image:{
-        height: ('50%'), width: ('30%'),top:8, marginLeft:10
+        height: ('40%'), width: ('30%'),top:9, marginLeft:5
     },
     wallet_text:{
-        color: 'red', alignSelf: 'center', fontWeight: 'bold', fontSize: 15 
+        color: 'red', alignSelf: 'center', fontWeight: 'bold', fontSize: 13 
     },
     card:{
         height: 300, width: 250, backgroundColor: '#F6E9A5', borderRadius: 15

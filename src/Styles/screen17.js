@@ -12,7 +12,7 @@ export default styles = StyleSheet.create({
         flexDirection: 'row'
     },
     v4: {
-        marginLeft: 5, borderWidth: 1, borderRadius: 50, height: 20, width: 20, borderColor: '#5B7BFD', top: 15
+        marginLeft: 5, borderWidth: 2, borderRadius: 50, height: 25, width: 25, borderColor: '#5B7BFD', top: 15
     },
     v5: {
         height: 50, width: 400, flexDirection: 'row', justifyContent: 'space-around', borderBottomColor: 'grey', borderBottomWidth: 1
@@ -33,7 +33,7 @@ export default styles = StyleSheet.create({
         fontSize: 16, color: 'red', top: 15
     },
     t6: {
-        color: '#5B7BFD', left: 5, fontWeight: 'bold'
+        color: '#5B7BFD', left: 7, fontWeight: 'bold', fontSize:14
     }
 
 });

@@ -34,46 +34,46 @@ export default function Screen12({ navigation }) {
 
                     <TouchableOpacity style={styles.button1}>
                         <Text style={styles.btntext}>
-                            Pay Rs 300
+                            Pay Rs 400
                         </Text>
                     </TouchableOpacity>
                 </View>
                 <View style={styles.view5}>
                     <TouchableOpacity style={styles.button1}>
                         <Text style={styles.btntext}>
-                            Pay Rs 300
+                            Pay Rs 500
                         </Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.button1}>
                         <Text style={styles.btntext}>
-                            Pay Rs 300
+                            Pay Rs 399
                         </Text>
                     </TouchableOpacity>
                 </View>
                 <View style={styles.view5}>
                     <TouchableOpacity style={styles.button1}>
                         <Text style={styles.btntext}>
-                            Pay Rs 300
+                            Pay Rs 199
                         </Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.button1}>
                         <Text style={styles.btntext}>
-                            Pay Rs 300
+                            Pay Rs 246
                         </Text>
                     </TouchableOpacity>
                 </View>
                 <View style={styles.view5}>
                     <TouchableOpacity style={styles.button1}>
                         <Text style={styles.btntext}>
-                            Pay Rs 300
+                            Pay Rs 799
                         </Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.button1}>
                         <Text style={styles.btntext}>
-                            Pay Rs 300
+                            Pay Rs 100
                         </Text>
                     </TouchableOpacity>
                 </View>

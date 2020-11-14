@@ -27,14 +27,14 @@ export default function Screen10({ navigation }) {
                 <TouchableOpacity>
                     <Text style={styles.t2}>Magazine</Text>
                 </TouchableOpacity>
-                <TouchableOpacity>
-                    <Text style={styles.t3}>Recycle NewsPaper</Text>
+               <TouchableOpacity>
+                    <Text style={styles.t1}>Recycle NewsPapers</Text>
                 </TouchableOpacity>
             </View>
 
             <View style={styles.view4}>
-                <Text style={styles.text2}>Magazine</Text>
-                <Text style={styles.text3}>Coming Soon</Text>
+                <Text style={styles.text2}>Coming soon</Text>
+                {/* <Text style={styles.text3}>Coming Soon</Text> */}
                 <TouchableOpacity   onPress={() => navigation.navigate('Screen11')} style={styles.button}>
                     <Text style={styles.btntex}>Thank You</Text>
                 </TouchableOpacity>

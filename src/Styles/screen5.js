@@ -20,7 +20,7 @@ export default styles = StyleSheet.create({
     heading:{
         fontSize: 25, color: 'black', left: 30
     },
-    picker:{height: ('8%'), color: 'grey' },
+    picker:{height: ('5%'), color: 'grey', marginTop:15 },
     C_Text:{
         marginTop: 5, fontWeight: 'bold', color: 'black'
     },
@@ -28,7 +28,7 @@ export default styles = StyleSheet.create({
         height: ('7%'), width: ('80%'), backgroundColor: '#0487CA', alignSelf: 'center', borderRadius: 10
     },
     button_text:{
-        color: 'white', alignSelf: 'center', fontSize: 20, top: 15 
+        color: 'white', alignSelf: 'center', fontSize: 20, top:  8
     },
 
     

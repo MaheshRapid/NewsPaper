@@ -35,7 +35,7 @@ button:{
     height: ('90%'), width: ('21%'),borderWidth:1,borderRadius:5,  borderColor:'grey'
 },
 btn_txt:{
-    color: '#0487CA',textAlign:'center', top:5, fontSize:20, fontWeight:'200'
+    color: '#0487CA',textAlign:'center', top:5, fontSize:15, fontWeight:'200'
 },
 border:{
     borderBottomWidth: 1, borderBottomColor: 'grey', marginTop: 10 

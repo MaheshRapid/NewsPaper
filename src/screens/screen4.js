@@ -12,7 +12,7 @@ export default function Screen4({navigation }) {
     return (
         <View style={{}}>
              <Image source={require('../images/logo.png')} style={{ height: 60, width: 60}}></Image>
-            {/* <Text style={{ fontWeight: 'bold', fontSize: 40, margin: 15, color: '#FFB300' }}>PB</Text> */}
+           
             <View style={{ margin: 20, marginTop: 100 }}>
                 <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#222222' }}>Confirmation Code</Text>
                 <Text style={{ top: 10, fontSize: 15, color: '#7E7E7E' }}>We sent a code to <Text style={{ color: '#0073F7' }}>9502558103 </Text> please enter down</Text>

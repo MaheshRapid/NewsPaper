@@ -28,7 +28,7 @@ export default styles = StyleSheet.create({
     text2: {
         color: '#5E7BF9'
     }, button1: {
-        height: 38, width: 89, borderWidth: 1, borderRadius: 5, borderColor: '#5A4C4D'
+        height: ('90%'), width: ('22%'), borderWidth: 1, borderRadius: 5, borderColor: '#5A4C4D'
     },
     btntext: {
         color: '#5E7BF9', textAlign: 'center', top: 3, fontSize: 18, fontWeight: '200'
