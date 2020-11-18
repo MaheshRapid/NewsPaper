@@ -88,7 +88,7 @@ export default function Screen17({navigation }) {
             
             <View style={styles.v5}>
             <Text style={styles.t4}>Rajesh</Text>
-                <Text style={ styles.t5}> Hyd</Text>
+                <Text style={ styles.t5}>Hyd</Text>
                 <View style={styles.v3}>
                    
                     <TouchableOpacity>
@@ -98,8 +98,6 @@ export default function Screen17({navigation }) {
                     </TouchableOpacity>
                 </View>
             </View>
-
-     
           
             <TouchableOpacity 
               onPress={() =>  navigation.navigate('Screen18')}>

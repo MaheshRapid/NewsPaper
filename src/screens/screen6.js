@@ -22,7 +22,7 @@ export default function Screen6({ navigation }) {
             <ScrollView horizontal={true}>
                 <View style={styles.view4}>
                     <View style={styles.card}>
-                        <Text style={styles.card_text1}>Manage newspaper & Magagine subscription</Text>
+                        <Text style={styles.card_text1}>Manage newspaper & magazine subscription</Text>
                         <Text style={styles.card_text2}>Register and subscribe to your choice of newpapers and magazines with ease</Text>
                     </View>
                     <View style={styles.card1}>

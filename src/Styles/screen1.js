@@ -8,6 +8,12 @@ export default styles = StyleSheet.create({
     logo: {
         marginTop: 20
     },
-    logo2: { height: ('18%'),  borderRadius: 10, width: ('25%'), marginTop: 400, alignSelf: 'center' }
+    logo2: {
+        height: ('15%'),
+        borderRadius: 10,
+        width: ('20%'),
+        marginTop: 400,
+        alignSelf: 'center'
+    }
 
 });
